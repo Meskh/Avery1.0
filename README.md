@@ -33,13 +33,13 @@ The system is composed of two primary components:
     <th>device 3D model</th>
   </tr>
   <tr>
-    <td><img src="Product/AveryReal-1.png" width="300" alt="Real-world Assembly"></td>
-    <td><img src="Product/Server.png" width="300" alt="Server-Side Interface"></td>
+    <td><img src="Product/AveryReal-1.png" width="100%" alt="Real-world Assembly"></td>
+    <td><img src="Product/Server.png" width="100%" alt="Server-Side Interface"></td>
     <td> 
       <p align="center">
-        <img src="Product/Avery3D-1.png" width="300" />
-        <img src="Product/Avery3D-2.png" width="300" />
-        <img src="Product/Avery3D-3.png" width="300" />
+        <img src="Product/Avery3D-1.png" width="100%" />
+        <img src="Product/Avery3D-2.png" width="100%" />
+        <img src="Product/Avery3D-3.png" width="100%" />
       </p>
     </td>
   </tr>
