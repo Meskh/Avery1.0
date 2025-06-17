@@ -37,9 +37,9 @@ The system is composed of two primary components:
     <td><img src="Product/Server.png" width="100%" alt="Server-Side Interface"></td>
     <td> 
       <p align="center">
-        <img src="Product/Avery3D-1.png" width="100%" />
-        <img src="Product/Avery3D-2.png" width="100%" />
-        <img src="Product/Avery3D-3.png" width="100%" />
+        <img src="Product/Avery3D-1.png" width="30%" />
+        <img src="Product/Avery3D-2.png" width="30%" />
+        <img src="Product/Avery3D-3.png" width="30%" />
       </p>
     </td>
   </tr>
