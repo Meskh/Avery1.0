@@ -32,12 +32,15 @@ The system is composed of two primary components:
 </p>
 
 <p align="center">
-  <th>Real-world Assembly</th>
-  <th>Server-Side Interface</th><br>
-  <img src="Product/AveryReal-1.png" width="45%" />
-  <img src="Product/Server.png" width="45%" />
+  <div style="display: inline-block; text-align: center; width: 45%;">
+    <p><strong>Real-world Assembly</strong></p>
+    <img src="Product/AveryReal-1.png" width="100%" />
+  </div>
+  <div style="display: inline-block; text-align: center; width: 45%;">
+    <p><strong>Server-Side Interface</strong></p>
+    <img src="Product/Server.png" width="100%" />
+  </div>
 </p>
-
 
 ## 🖥️ Code Overview
 
