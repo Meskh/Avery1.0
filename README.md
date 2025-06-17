@@ -47,7 +47,7 @@ The system is composed of two primary components:
 
 ## 🖥️ Code Overview
 
-### `/main.cpp`
+### `ESP/main.cpp`
 Handles:
 - Camera initialization (ESP32-CAM)
 - WiFi setup
@@ -55,27 +55,18 @@ Handles:
 - Receiving processed motor feedback values
 - Driving vibration motors using PWM based on server input
 
-### `/server.py`
+### `Server/server.py`
 Performs:
-- HTTP server functionality to receive images
-- Calls a depth estimation model (can be extended with PyTorch or ONNX)
-- Maps depth data into vibration levels
+- receives images
+- Calls a depth estimation model
+- Maps depth data onto vibration levels
 - Sends motor commands back to ESP32
-
----
-
-## 🚀 Getting Started
-
-1. Flash the ESP32-CAM with `main.cpp`.
-2. Run `server.py` on your local machine.
-3. Connect both devices to the same WiFi network.
-4. Wear the band and begin moving around — feel the environment through vibration.
 
 ---
 
 ## 🧠 Future Work
 
-- Integrate lightweight depth estimation models (e.g., FastDepth) for onboard processing.
+- Integrate smaller depth estimation models (e.g., FastDepth) for faster processing.
 - Optimize latency and energy consumption.
 - Add support for edge-case detection (stairs, drop-offs).
 - Improve haptic feedback resolution and user configurability.
