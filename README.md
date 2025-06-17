@@ -31,16 +31,16 @@ The system is composed of two primary components:
   <img src="Product/Avery3D-4.png" width="45%" />
 </p>
 
-<div align="center">
-  <div style="display: inline-block; text-align: center; width: 45%; vertical-align: top;">
-    <h1>Real-world Assembly</h1>
-    <img src="Product/AveryReal-1.png" width="100%" />
-  </div>
-  <div style="display: inline-block; text-align: center; width: 45%; vertical-align: top;">
-    <h1>Server-Side Interface</h1>
-    <img src="Product/Server.png" width="100%" />
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <th>Real-world Assembly</th>
+    <th>Server-Side Interface</th>
+  </tr>
+  <tr>
+    <td><img src="Product/AveryReal-1.png" width="300" alt="Real-world Assembly"></td>
+    <td><img src="Product/Server.png" width="300" alt="Server-Side Interface"></td>
+  </tr>
+</table>
 
 ## 🖥️ Code Overview
 
