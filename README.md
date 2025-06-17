@@ -1,37 +1,38 @@
-# Avery1.0
-Wearable Haptic device for sensory augmentation, providing real-time environmental feedback for increased spatial awarness
 # Avery 1.0 — Haptic Feedback Band for Spatial Awareness
 
-Avery is a wearable haptic feedback device developed to enhance spatial awareness through real-time environmental sensing. Designed primarily for sensory augmentation, this device provides vibrational feedback based on obstacle proximity detected via a camera, aiding users (especially the visually impaired) in perceiving their surroundings through touch.
+Avery is a wearable haptic feedback device developed to enhance spatial awareness through real-time environmental sensing. Designed primarily for sensory augmentation, this device provides vibrational feedback based on obstacle proximity detected via a camera, aiding users (especially the visually impaired) in perceiving their surroundings.
 
 ## 🔧 How It Works
 
 The system is composed of two primary components:
 
 ### 1. **ESP32-CAM Unit**
-- Mounted on the back of the head.
+- Mounted on the side of the head capturing the front view of the user.
 - Continuously captures images of the environment.
 - Sends visual data wirelessly to a server for processing.
 
-### 2. **Local Server (Python-based)**
+### 2. **Server (Python-based)**
 - Receives images from the ESP32-CAM.
 - Uses a depth estimation model to process the input and determine obstacle distance.
 - Outputs a vector of motor intensities, which is sent back to the microcontroller to drive vibration motors accordingly.
 
 ## 🧠 Key Features
 - **Real-Time Depth Estimation**
-- **Wireless Communication (ESP32 ↔ Server)**
+- **Wireless Communication (ESP32 ↔ Server) using the esp-32 as an access point**
 - **Multi-Motor Haptic Feedback Mapping**
-- **Compact and Wearable 3D-Printed Design**
+- **Compact and Wearable Design**
 
 ## 📸 Product Images
 
 ### Prototype Renders
-![3D Render 0](Product/Avery3D-0.png)
-![3D Render 1](Product/Avery3D-1.png)
-![3D Render 2](Product/Avery3D-2.png)
-![3D Render 3](Product/Avery3D-3.png)
-![3D Render 4](Product/Avery3D-4.png)
+![3D Render](Product/Avery3D-0.png)
+
+<p align="center">
+  <img src="Product/Avery3D-1.png" width="45%" />
+  <img src="Product/Avery3D-2.png" width="45%" /><br>
+  <img src="Product/Avery3D-3.png" width="45%" />
+  <img src="Product/Avery3D-4.png" width="45%" />
+</p>
 
 ### Real-World Assembly
 ![Real Photo](Product/AveryReal-1.png)
@@ -67,4 +68,18 @@ Performs:
 
 ---
 
-## 📂 Folder Structure
+## 🧠 Future Work
+
+- Integrate lightweight depth estimation models (e.g., FastDepth) for onboard processing.
+- Optimize latency and energy consumption.
+- Add support for edge-case detection (stairs, drop-offs).
+- Improve haptic feedback resolution and user configurability.
+
+---
+
+## 🙏 Credits
+
+Developed by [Meskh](https://github.com/meskh)   
+Part of a personal sensory augmentation initiative.
+
+---
