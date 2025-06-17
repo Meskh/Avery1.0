@@ -31,16 +31,13 @@ The system is composed of two primary components:
   <img src="Product/Avery3D-4.png" width="45%" />
 </p>
 
-<table>
-  <tr>
-    <th>Real-World Assembly</th>
-    <th>Server-Side Interface</th>
-  </tr>
-  <tr>
-    <td><img src="Product/AveryReal-1.png" width="45%"/></td>
-    <td><img src="Product/Server.png" width="45%"/></td>
-  </tr>
-</table>
+<p align="center">
+  <th>Real-world Assembly</th>
+  <th>Server-Side Interface</th><br>
+  <img src="Product/AveryReal-1.png" width="45%" />
+  <img src="Product/Server.png" width="45%" />
+</p>
+
 
 ## 🖥️ Code Overview
 
