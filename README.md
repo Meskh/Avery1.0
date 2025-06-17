@@ -2,7 +2,7 @@
 
 Avery is a wearable haptic feedback device developed to enhance spatial awareness through real-time environmental sensing. Designed primarily for sensory augmentation, this device provides vibrational feedback based on obstacle proximity detected via a camera, aiding users (especially the visually impaired) in perceiving their surroundings.
 
-## 🔧 How It Works
+## How It Works
 
 The system is composed of two primary components:
 
@@ -16,16 +16,13 @@ The system is composed of two primary components:
 - Uses a depth estimation model to process the input and determine obstacle distance.
 - Outputs a vector of motor intensities, which is sent back to the microcontroller to drive vibration motors accordingly.
 
-## 🧠 Key Features
+## Key Features
 - **Real-Time Depth Estimation**
 - **Wireless Communication (ESP32 ↔ Server) using the esp-32 as an access point**
 - **Multi-Motor Haptic Feedback Mapping**
 - **Compact and Wearable Design**
 
-## 📸 Product Images
-
-### Prototype Renders
-![3D Render](Product/Avery3D-0.png)
+## Product Images
 
 <p align="center">
   <img src="Product/Avery3D-1.png" width="45%" />
@@ -34,11 +31,12 @@ The system is composed of two primary components:
   <img src="Product/Avery3D-4.png" width="45%" />
 </p>
 
-### Real-World Assembly
-![Real Photo](Product/AveryReal-1.png)
-
-### Server-Side Interface
-![Server Screenshot](Product/Server.png)
+<p align="center">
+  ### Real-World Assembly
+  <img src="Product/AveryReal-1.png" width="45%" /><br>
+  ### Server-Side Interface
+  <img src="Product/Server.png" width="45%" />
+</p>
 
 ## 🖥️ Code Overview
 
