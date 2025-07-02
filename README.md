@@ -75,7 +75,7 @@ Performs:
 
 ## 🙏 Credits
 
-Developed by Aleksandre Meskhi
+Developed by Aleksandre Meskhi   
 GitHub - [Meskh](https://github.com/meskh)   
 Linkedin - [Aleksandre](https://www.linkedin.com/in/aleksandre-meskhi/)   
 Part of a personal sensory augmentation initiative.
