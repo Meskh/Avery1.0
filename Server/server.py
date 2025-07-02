@@ -1,3 +1,10 @@
+'''
+Avery 1.0 
+server.py - local device connected to the ESP32's AP
+Developer: Aleksandre Meskhi
+Date: 20 March 2025
+'''
+
 import cv2
 import numpy as np
 import torch
@@ -504,3 +511,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+'''
+Avery 1.0 
+server.py - local device connected to the ESP32's AP
+Developer: Aleksandre Meskhi
+Date: 20 March 2025
+'''
