@@ -21,10 +21,10 @@ The ESP32-CAM acts as the client-side controller for capturing environmental dat
 
 ## 🔌 Hardware Overview
 
-- Each vibration motor is powered by an **external power source** embedded within the wearable device (e.g., a Li-ion battery).
+- Each vibration motor is powered by an **external power source** embedded within the wearable device (a Li-ion battery).
 - **BJTs (Bipolar Junction Transistors)** are used to regulate the amount of power delivered to each motor, controlled via the ESP32’s PWM output.
 - To ensure safe operation and prevent damage:
-  - A **diode** is placed in parallel with each motor to protect against back EMF (electromotive force).
+  - A **diode** is placed in parallel with each motor to protect against back EMF.
   - A **capacitor** is also included in parallel to smooth voltage fluctuations and absorb transients.
 - This setup ensures reliable and safe haptic feedback without compromising the stability of the power system or the microcontroller.
 
