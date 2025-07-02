@@ -1,3 +1,8 @@
+/* Avery 1.0 
+ * main.cpp - upload to ESP32CAM
+ * Developer: Aleksandre Meskhi
+ * Date: 12 March 2025
+ */
 #include <Arduino.h>
 #include "esp_camera.h"
 #include <WiFi.h>
@@ -379,3 +384,7 @@ void loop() {
   server.handleClient();
   webSocket.loop();  // Handle WebSocket events
 }
+
+/* Developer: Aleksandre Meskhi
+ * Date: 12 March 2025
+ */
