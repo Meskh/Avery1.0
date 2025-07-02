@@ -77,7 +77,7 @@ Performs:
 
 Developed by Aleksandre Meskhi
 GitHub - [Meskh](https://github.com/meskh)   
-Linkedin - [Aleksandre](https://www.linkedin.com/in/aleksandre-meskhi/)
+Linkedin - [Aleksandre](https://www.linkedin.com/in/aleksandre-meskhi/)   
 Part of a personal sensory augmentation initiative.
 
 ---
